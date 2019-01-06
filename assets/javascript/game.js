@@ -1,4 +1,5 @@
-$(document).ready(function() {
+
+
 
 	
     // possible choices computer will make
@@ -69,4 +70,6 @@ $(document).ready(function() {
         }
     };
 
-});
+
+
+
