@@ -1,27 +1,24 @@
 .Psychic-Game {
-
 	text-align: center;
-	
-	}
+}
 
-	body {
+body {
+	background: url("https://assets3.thrillist.com/v1/image/1522505/size/tmg-article_default_mobile.jpg") no-repeat center center fixed;
+	background-size: cover;
+	color: white;
+}
 
-		background: url("https://assets3.thrillist.com/v1/image/1522505/size/tmg-article_default_mobile.jpg") no-repeat center center fixed;
-		 background-size: cover;
-		 color: white
-		 ;
-		 
-	}
+h1 {
+	color: purple;
+	filter: brightness(150%);
+	width: 17%;
+	background-image: url("https://media1.tenor.com/images/7ea61f2fa6e32716e1675d89d0aa37aa/tenor.gif?itemid=5196339");
+	margin-left: 41.7%;
+}
+.moon {
+	color: yellow;
+}
 
-	h1 {
-		color: purple;
-		filter: brightness(150%);
-		width: 17%;
-		background-image: url("https://media1.tenor.com/images/7ea61f2fa6e32716e1675d89d0aa37aa/tenor.gif?itemid=5196339");
-		margin-left: 41.7%;
-
-		
-	}
-	.moon {
-		color: yellow;
-	}
+.caps {
+	font-size: 25px;
+}

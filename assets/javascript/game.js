@@ -48,8 +48,10 @@ $(document).ready(function () {
     
         //when user starts game
         var html =
-            "<h1> The Psychic Game </h1>" +
-            "<p>Guess what letter I'm thinking of</p>" +
+        '<br>' +
+        '<br>' +
+        "<h1> The Psychic Game <span class=moon>☾☽</span></h1>" +
+		    "<p>Guess what letter I'm thinking of</p>" +
             "<p>Wins: " + wins + "</p>" +
             "<p>Losses: " + losses + "</p>" +
             "<p>Guesses Left: " + numberOfGuesses + "</p>" +
