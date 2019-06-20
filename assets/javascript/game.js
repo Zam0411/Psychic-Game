@@ -1,5 +1,3 @@
-$(document).ready(function () {
-
     // possible choices computer will make
     var computerGuesses = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z",];
 
@@ -19,12 +17,10 @@ $(document).ready(function () {
         //letters user will have available to choose ALL CAPS LOCK
         var userOptions = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z",];
 
-        console.log(guessChoices)
-        console.log(userGuess)
         var check = guessChoices.includes(userGuess);
         
-        if (check) {
-            //Will not allow same letter to be chosen twice
+        if (check) { //Will not allow same letter to be chosen twice
+         
         } else {
         if (userOptions.indexOf(userGuess) > -1) {
             if (userGuess === computerGuess) {
@@ -59,8 +55,10 @@ $(document).ready(function () {
         document.querySelector(".Psychic-Game").innerHTML = html;
 
     };
+    var word = document.getElementById('words')
+    console.log(word.document.onkeydown)
 
-});
+
 
 
 
